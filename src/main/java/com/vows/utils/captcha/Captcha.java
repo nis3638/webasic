@@ -119,7 +119,7 @@ public class Captcha {
 	}
 
     public void write(String path) throws IOException {  
-        OutputStream sos = new FileOutputStream(path);  
+        OutputStream sos = new FileOutputStream(path);  // 输出 
         this.write(sos);  
     }  
     
