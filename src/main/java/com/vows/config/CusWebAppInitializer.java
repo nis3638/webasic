@@ -5,7 +5,7 @@ import javax.servlet.Filter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 /**
- * @project:webasic
+ * @project:webasic 该类实际还是基于ServletContainerInitializer类 实现的
  * @description:代替web.xml中的 springContextListener 和  dispatcherServlet的配置
  * @authur:nis36
  * 2017年1月24日-下午4:58:20
